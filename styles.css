@@ -1,15 +1,50 @@
 body {
 	background-color: #5160E1;
 	text-align: center;
+	padding: 30px 5%;
 }
 
 .logo {
-	width: 40%;
+	width: 20%;
+}
+
+.message-div {
+	display: inline-block;
+	width: 50%;
+	color: white;
+	font-family: nafees;
+}
+
+h1 {
+	font-size: 4em
+}
+
+h3 {
+	font-size: 2em;
+}
+
+.flag {
+	width: 20%;
 }
 
 
 @media (max-width: 600px) {
-  .logo {
+  .logo, .flag {
     width: 60%;
   }
+  .message-div {
+	  width: 100%;
+	  display: block;
+  }
+  h1 {
+	  font-size: 2.5em;
+  }
+  h3 {
+	  font-size: 1.5em;
+  }
+}
+
+@font-face {
+    font-family: nafees;
+    src: url(Nafees.ttf);
 }
